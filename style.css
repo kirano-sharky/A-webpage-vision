@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-image: url('img/wallpaper.jpg');*/
+    background-image: url('img/gura\ wallpaper.webp');
+    background-repeat: no-repeat;
+    background-size: 1540px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #5D81c7;*/
+}
+
+.卡片 {
+    width: 200px;
+    height: min-content;
+    padding: 30px;
+    margin: 0 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+    align-items: center;
+    /*backdrop-filter: blur(18px) brightness(100%);*/
+    backdrop-filter: blur(20px) brightness(120%);
+}
+
+.卡片 .圖片 img {
+    width: 100px;
+}
+
+.卡片:hover .圖片 img {
+    height: 150px;
+    width: 150px;
+}
+
+.卡片 .圖片 {
+    text-align: center;
+}
+
+.卡片 #點A {
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 0px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #0898d1;
+    color: #f5eceb;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+
+  #點A:hover {
+    background-color: #56b5db;
+    transition: 0.5s;
+    filter: drop-shadow(0 9px 9px);
+    color: #20f7f4;
+  }
+
+#點A:active {
+    font-size: 25px;
+    height: 50px;
+    background: #e0988d;
+    filter: drop-shadow(0 9px 9px);
+    color: #f04c32;
+}
+
+
+/*.卡片 button {
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 0px;
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #0898d1;
+    color: #f5eceb;
+    font-weight: 600;
+    border-radius: 30px;
+  }
+
+  button:hover {
+    background-color: #56b5db;
+    transition: 0.5s;
+    filter: drop-shadow(0 9px 9px);
+    color: #20f7f4;
+  }
+
+button:active {
+    font-size: 25px;
+    height: 50px;
+    background: #e0988d;
+    filter: drop-shadow(0 9px 9px);
+    color: #f04c32;
+}*/
+
